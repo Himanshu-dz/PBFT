@@ -1,0 +1,9 @@
+0) Understanding the concept of signature hashing and keys ----done----
+1) Create a BootSTrapServer : [Nodes are able to register themselves->generate public key using eliptic curve cryptography->public key will be stored in blockchain database permanently
+                               ||Nodes are able to take part in consenus algorithm]
+    -> We will use p2p Server 
+
+2) Modifying data to money transfer 
+3) Verifying transactions as well
+4) Creating local databases for storing blockchain
+5) View change protocol

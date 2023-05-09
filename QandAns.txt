@@ -1,0 +1,8 @@
+Q1. How The bootstrap server authenticates the new node, and if it's a valid request.
+          
+    In order for the bootstrap server to authenticate a new node and determine whether the request is valid, it needs to perform a few checks. Here are some ways that a bootstrap server can authenticate a new node:
+1. IP Address Verification: The bootstrap server can verify that the IP address of the new node is a valid IP address on the network. This can be done by checking the IP address against a list of known IP addresses or by verifying that the IP address matches the range of IP addresses used by the network.
+2. Digital Signature Verification: The bootstrap server can verify the digital signature of the new node's request to join the network. This involves verifying that the public key of the node matches the digital signature provided in the request.
+3. Public Key Verification: The bootstrap server can verify that the public key of the new node is a valid public key on the network. This can be done by checking the public key against a list of known public keys or by verifying that the public key is signed by a trusted authority.
+4. Challenge-Response Authentication: The bootstrap server can challenge the new node with a random value and require the node to provide a valid response to authenticate. This ensures that the node has the necessary cryptographic keys to participate in the network.
+Once the bootstrap server has authenticated the new node, it can add the node to the list of active nodes in the network and provide the node with the necessary information to join the network.
